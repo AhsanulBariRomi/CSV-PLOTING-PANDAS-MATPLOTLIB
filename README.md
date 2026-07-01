@@ -28,3 +28,7 @@ The `plot_validation.py` script leverages the following Python data science libr
    ```
 
 4. Upon completion, the script will automatically generate and save a high-resolution image named `thesis_validation_dashboard.png` in the same directory.
+
+## Validation Dashboard Output
+
+![Thesis Validation Dashboard](thesis_validation_dashboard_600.png)
