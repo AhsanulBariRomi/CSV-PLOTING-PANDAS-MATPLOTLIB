@@ -1,0 +1,15 @@
+# Python Cache and Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Obsolete / Old Files
+OLD_*
+README.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
