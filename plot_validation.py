@@ -60,7 +60,7 @@ fig.suptitle('Simulation Validation: Legacy TCP vs Modern gRPC', fontsize=18, fo
 # ==========================================
 axs[0, 0].plot(cars_legacy.index, cars_legacy.values, color='gold', linewidth=5, label='Legacy (Yellow)')
 axs[0, 0].plot(cars_grpc.index, cars_grpc.values, color='blue', linewidth=2, linestyle='--', label='gRPC (Blue)')
-axs[0, 0].set_title('1. Network Density: Time vs Active Vehicles')
+axs[0, 0].set_title('1. Traffic Density: Time vs Active Vehicles')
 axs[0, 0].set_xlabel('Time (s)')
 axs[0, 0].set_ylabel('Total Cars on Map')
 axs[0, 0].legend()
@@ -73,7 +73,7 @@ axs[0, 0].grid(True, alpha=0.3)
 # ==========================================
 axs[0, 1].plot(speed_legacy.index, speed_legacy.values, color='gold', linewidth=5, label='Legacy (Yellow)')
 axs[0, 1].plot(speed_grpc.index, speed_grpc.values, color='blue', linewidth=2, linestyle='--', label='gRPC (Blue)')
-axs[0, 1].set_title('2. Macro Physics: Time vs Average Network Speed')
+axs[0, 1].set_title('2. Macro Physics: Time vs Average Traffic Speed')
 axs[0, 1].set_xlabel('Time (s)')
 axs[0, 1].set_ylabel('Average Speed (m/s)')
 axs[0, 1].legend()
